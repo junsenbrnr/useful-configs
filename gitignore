@@ -1,0 +1,36 @@
+### General
+.DS_Store
+
+### Terraform
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# .tfvars files
+*.tfvars
+
+### Docker
+.env
+*.sql
+*.sql.*
+
+### Python / Flask / Chalice / Django
+__pycache__/
+*.py[cod]
+.chalice/deployments/
+.chalice/venv/
+
+### Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
