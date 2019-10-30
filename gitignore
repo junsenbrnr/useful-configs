@@ -11,6 +11,9 @@
 # .tfvars files
 *.tfvars
 
+### Packer
+packer-vars.json
+
 ### Docker
 .env
 *.sql
