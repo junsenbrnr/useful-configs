@@ -1,4 +1,6 @@
 alias ..="cd ../"
+alias ...="cd ../../"
+alias grep="grep --color=always"
 alias rmpyc="find . -name '*.pyc' -exec rm -f {} \;"
 
 export PATH=/usr/local/bin:/usr/local/opt:/usr/bin:$PATH
